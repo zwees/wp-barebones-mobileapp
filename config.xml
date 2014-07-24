@@ -1,12 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.agameoftwohalves.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    
     <name>A Game of Two Halves</name>
-    <description>
-        Latest from the Last Word on Football
-    </description>
-    <author email="knowles.chris.d@gmail.com" href="http://www.agameoftwohalves.com">
-        AGOTH Webmaster
-    </author>
+    <description>Latest from the Last Word on Football</description>
+    <author email="chris@" href="http://www.agameoftwohalves.com">AGOTH Webmaster</author>
 
     <preference name="phonegap-version" value="3.3.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
@@ -24,6 +21,7 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
+	<gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 
 	<icon src="icon.png" />
 	
